@@ -4,3 +4,9 @@
  Description:  This is the first theme created by ross a child theme of WordPress' Twenty sixteen theme
  Template:     twentysixteen
 */
+
+
+/* this styling is done via the resource | contents-page-home.php | */
+.post-16 {
+    color:red;
+}
