@@ -12,3 +12,4 @@ function theme_enqueue_styles() {
 function filter_example($title) {
 	return 'Hooked: '.$title;
 }
+

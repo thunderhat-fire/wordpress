@@ -33,6 +33,23 @@
 		?>
 	</div><!-- .entry-content -->
 
+
+
+	<?php
+		if ( get_field('logo') ){  ?>
+			<h2> <?php the_field('logo')?> </h2>
+	<?php } ?>
+
+	<?php
+		if ( get_field('postal_address') ){  ?>
+			<h2> <?php the_field('postal_address')?> </h2>
+	<?php } ?>
+
+	<?php
+		if ( get_field('email_address') ){  ?>
+			<h2> <?php the_field('email_address')?> </h2>
+	<?php } ?>
+
 	<?php
 		if ( get_field('phone_number') ){  ?>
 			<h2> <?php the_field('phone_number')?> </h2>
